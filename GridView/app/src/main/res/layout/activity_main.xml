@@ -268,7 +268,7 @@
 
         <Button
             android:layout_margin="5sp"
-            android:text="Z"
+            android:text="Ze"
             android:textColor="#1C1B1B"
             android:textSize="18sp"
             app:backgroundTint="#99C0C6"
