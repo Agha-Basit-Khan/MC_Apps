@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10sp"
+        app:rowCount="7"
+        app:columnCount="4">
+
+        <Button
+            android:layout_margin="5sp"
+            android:text="A"
+            android:textColor="#1C1B1B"
+            android:textSize="18sp"
+            app:backgroundTint="#99C0C6"
+            app:layout_column="0"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_row="0"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:layout_margin="5sp"
+            android:text="B"
+            android:textColor="#1C1B1B"
+            android:textSize="18sp"
+            app:backgroundTint="#99C0C6"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:layout_margin="5sp"
+            android:text="C"
+            android:textColor="#1C1B1B"
+            android:textSize="18sp"
+            app:backgroundTint="#99C0C6"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:layout_margin="5sp"
+            android:text="D"
+            android:textColor="#1C1B1B"
+            android:textSize="18sp"
+            app:backgroundTint="#99C0C6"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:layout_margin="5sp"
+            android:text="E"
+            android:textColor="#1C1B1B"
+            android:textSize="18sp"
+            app:backgroundTint="#99C0C6"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:layout_margin="5sp"
+            android:text="F"
+            android:textColor="#1C1B1B"
+            android:textSize="18sp"
+            app:backgroundTint="#99C0C6"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:layout_margin="5sp"
+            android:text="G"
+            android:textColor="#1C1B1B"
+            android:textSize="18sp"
+            app:backgroundTint="#99C0C6"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:layout_margin="5sp"
+            android:text="H"
+            android:textColor="#1C1B1B"
+            android:textSize="18sp"
+            app:backgroundTint="#99C0C6"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:layout_margin="5sp"
+            android:text="I"
+            android:textColor="#1C1B1B"
+            android:textSize="18sp"
+            app:backgroundTint="#99C0C6"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:layout_margin="5sp"
+            android:text="J"
+            android:textColor="#1C1B1B"
+            android:textSize="18sp"
+            app:backgroundTint="#99C0C6"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:layout_margin="5sp"
+            android:text="K"
+            android:textColor="#1C1B1B"
+            android:textSize="18sp"
+            app:backgroundTint="#99C0C6"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:layout_margin="5sp"
+            android:text="L"
+            android:textColor="#1C1B1B"
+            android:textSize="18sp"
+            app:backgroundTint="#99C0C6"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:layout_margin="5sp"
+            android:text="M"
+            android:textColor="#1C1B1B"
+            android:textSize="18sp"
+            app:backgroundTint="#99C0C6"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:layout_margin="5sp"
+            android:text="N"
+            android:textColor="#1C1B1B"
+            android:textSize="18sp"
+            app:backgroundTint="#99C0C6"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:layout_margin="5sp"
+            android:text="O"
+            android:textColor="#1C1B1B"
+            android:textSize="18sp"
+            app:backgroundTint="#99C0C6"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:layout_margin="5sp"
+            android:text="P"
+            android:textColor="#1C1B1B"
+            android:textSize="18sp"
+            app:backgroundTint="#99C0C6"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:layout_margin="5sp"
+            android:text="Q"
+            android:textColor="#1C1B1B"
+            android:textSize="18sp"
+            app:backgroundTint="#99C0C6"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:layout_margin="5sp"
+            android:text="R"
+            android:textColor="#1C1B1B"
+            android:textSize="18sp"
+            app:backgroundTint="#99C0C6"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:layout_margin="5sp"
+            android:text="S"
+            android:textColor="#1C1B1B"
+            android:textSize="18sp"
+            app:backgroundTint="#99C0C6"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:layout_margin="5sp"
+            android:text="T"
+            android:textColor="#1C1B1B"
+            android:textSize="18sp"
+            app:backgroundTint="#99C0C6"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:layout_margin="5sp"
+            android:text="U"
+            android:textColor="#1C1B1B"
+            android:textSize="18sp"
+            app:backgroundTint="#99C0C6"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:layout_margin="5sp"
+            android:text="V"
+            android:textColor="#1C1B1B"
+            android:textSize="18sp"
+            app:backgroundTint="#99C0C6"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:layout_margin="5sp"
+            android:text="W"
+            android:textColor="#1C1B1B"
+            android:textSize="18sp"
+            app:backgroundTint="#99C0C6"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:layout_margin="5sp"
+            android:text="X"
+            android:textColor="#1C1B1B"
+            android:textSize="18sp"
+            app:backgroundTint="#99C0C6"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:layout_margin="5sp"
+            android:text="Y"
+            android:textColor="#1C1B1B"
+            android:textSize="18sp"
+            app:backgroundTint="#99C0C6"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:layout_margin="5sp"
+            android:text="Z"
+            android:textColor="#1C1B1B"
+            android:textSize="18sp"
+            app:backgroundTint="#99C0C6"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1" />
+
+
+
+
+
+    </androidx.gridlayout.widget.GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
