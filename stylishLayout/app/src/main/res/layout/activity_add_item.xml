@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@mipmap/bgback"
+    tools:context=".login">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_login"
+        android:drawablePadding="10dp"
+        android:padding="15dp"
+        android:gravity="center"
+        android:text="Add Item Details"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textColorHighlight="@color/black"/>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/text_field"
+        android:drawablePadding="10dp"
+        android:padding="15dp"
+        android:hint="Enter Item Name"
+        android:layout_margin="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textColorHighlight="@color/white"/>
+    <EditText
+        android:id="@+id/des"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/text_field"
+        android:drawablePadding="10dp"
+        android:padding="15dp"
+        android:hint="Enter Item Description"
+        android:layout_margin="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textColorHighlight="@color/white"/>
+    <EditText
+        android:id="@+id/amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/text_field"
+        android:drawablePadding="10dp"
+        android:padding="15dp"
+        android:hint="Enter Item Amount"
+        android:layout_margin="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textColorHighlight="@color/white"/>
+    <EditText
+        android:id="@+id/quantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/text_field"
+        android:drawablePadding="10dp"
+        android:padding="15dp"
+        android:hint="Enter Item Quantity"
+        android:layout_margin="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textColorHighlight="@color/white"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_login"
+        android:text="Add"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        app:backgroundTint="@drawable/btn_login" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_cancel"
+        android:text="Cancel"
+        android:layout_margin="10dp"
+        android:textColor="@color/white"
+        app:backgroundTint="@drawable/btn_cancel" />
+    </LinearLayout>
+
+</LinearLayout>

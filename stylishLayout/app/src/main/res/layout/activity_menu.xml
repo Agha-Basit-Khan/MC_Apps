@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bgback"
+    android:gravity="center"
+    android:padding="25dp"
+    android:orientation="vertical"
+    tools:context=".menu">
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_login"
+        android:text="Add Item"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        app:backgroundTint="@drawable/btn_login" />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_login"
+        android:text="Update Item"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        app:backgroundTint="@drawable/btn_login" />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_login"
+        android:text="Delete Item"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        app:backgroundTint="@drawable/btn_login" />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_login"
+        android:text="View Item"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        app:backgroundTint="@drawable/btn_login" />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_login"
+        android:text="User Account"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        app:backgroundTint="@drawable/btn_login" />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_login"
+        android:text="Cancel"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        app:backgroundTint="@drawable/btn_login" />
+
+</LinearLayout>
